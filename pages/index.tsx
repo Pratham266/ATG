@@ -28,6 +28,7 @@ export default function Home() {
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <Navbar toggleModal={toggleModal}/>
       <Header toggleModal={toggleModal}/>
       {modal?<><Modal toggleModal={toggleModal}/></>:null}
@@ -38,6 +39,7 @@ export default function Home() {
         {/* <div className="footer col-span-12  border border-gray-800  p-6">
         </div> */}
       </div>
+      
 
     </>
   );
